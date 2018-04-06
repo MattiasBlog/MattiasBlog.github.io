@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MattiasBlog</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<!-- Break -->
+	
+	<style>
+		body {font-family: Arial, Helvetica, sans-serif;}
+
+		/* The Modal (background) */
+		.modal {
+			display: none; /* Hidden by default */
+			position: fixed; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			padding-top: 100px; /* Location of the box */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			overflow: auto; /* Enable scroll if needed */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		}
+
+		/* Modal Content */
+		.modal-content {
+			overflow: auto;
+			position: relative;
+			background-color: #fefefe;
+			margin: auto;
+			padding: 0;
+			border: 1px solid #888;
+			width: 30%;
+			height: 40%;
+			top: 20%;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+			-webkit-animation-name: animatetop;
+			-webkit-animation-duration: 0.4s;
+			animation-name: animatetop;
+			animation-duration: 0.4s
+		}
+
+		/* Add Animation */
+		@-webkit-keyframes animatetop {
+			from {top:-300px; opacity:0} 
+			to {top:0; opacity:1}
+		}
+
+		@keyframes animatetop {
+			from {top:-300px; opacity:0}
+			to {top:0; opacity:1}
+		}
+
+		/* The Close Button */
+		.close {
+			color: white;
+			float: right;
+			font-size: 28px;
+			font-weight: bold;
+		}
+
+		.close:hover,
+		.close:focus {
+			color: #000;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		.modal-header {
+			
+			padding: 2px 16px;
+			background-color: #3597DC;
+			color: white;
+			height: 15%;
+			vertical-align: middle;
+		}
+
+		.modal-body {padding: 2px 16px;}
+		</style>
+	
+	<!-- Break -->
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">Mattia's <span>personal WebSite</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Il mio sito</a></li>
+					<li><a href="NwLr.html">Newsletter</a></li>
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Section -->
+					<section class="wrapper" style="margin: 0;">
+						<div class="inner">
+							<header class="align-center">								
+									<h1>Il tuo sito </h1>
+									<p>Diamo inizio alla realizzazione del tuo portale!</p>
+							</header>
+							<div class="flex flex-2">
+								<div class="col col2">
+									<h3>Metodi e procedure</h3>
+									<p>La prima regola per creare un sito come si deve è prendere le cose con calma, buttarsi a capofitto senza progettualità e senza avere ben chiaro un 'Business plan' non può che far male. Un portale ottimizzato, infatti, necessità per prima cosa una serie di parametri che mi forniranno le linee guida per realizzare il tuo sito a seconda delle tue preferenze e del tuo obbiettivo di business!</p>
+									<p>Però non ti preoccupare! Il processo è in verità molto semplice, mi occorrono solo alcune informazioni di base per farmi un' idea su quale sia il sito per te. Una volta che saremo in contatto potremo discutere meglio dei tuoi desideri e obbiettivi. Ora, per contattarmi basta che compili il form sottostante che contiene le informazione base di cui necessito, nello spazio dedicato alle precisazioni puoi inserire per esempio un eventuale sito già esistente oppure qual è il tuo tetto di budget.</p>
+								</div>
+									
+								<div class="col col1 first">
+									<div class="image round fit">
+										<a href="generic.html" class="link"><img src="images/generic.jpg" alt="" /></a>
+									</div>
+								</div>
+							</div>
+<!-- Form Prova -->
+									
+									<h3 align="center">Come deve essere?</h3>
+									<div class="row uniform" style="margin-bottom: 25px;">
+												<div class="6u 12u$(xsmall)">
+													<input type="text" name="name" id="name" value="" placeholder="Nome" />
+												</div>
+												<div class="6u$ 12u$(xsmall)">
+													<input type="text" name="ragioneSociale" id="ragioneSociale" value="" placeholder="Ragione Sociale" />
+												</div>
+												<div class="12u$">
+													<input type="email" name="email" id="email" value="" placeholder="Email" />
+												</div>
+												<!-- Break -->
+												<div class="12u$">
+													<div class="select-wrapper">
+														<select name="category" id="category">
+															<option value="0">Categoria Sito</option>
+															<option value="1">Blog Personale</option>
+															<option value="2">Piccola Azienda</option>
+															<option value="2">Azienda Medio-Grande</option>
+															<option value="3">Altro</option>
+														</select>
+													</div>
+												</div>
+												
+												<!-- Break -->
+												<div class="6u 12u$(small)">
+													<input type="checkbox" id="dbs" name="dbs">
+													<label for="dbs">Necessiti di un DataBase?</label>
+												</div>
+												<div class="6u$ 12u$(small)">
+													<input type="checkbox" id="human" name="human">
+													<label for="human">I tuoi utenti possono iscriversi al portale?</label>
+												</div>
+												<!-- Break -->
+												<div class="12u$">
+													<textarea name="message" id="message" placeholder="Facoltativo:Vuoi aggiungere qualcosa?(max 150)" rows="3" maxlength="150"></textarea>
+												</div>
+												<!-- Modal -->
+												
+													<div id="myModal" class="modal">
+													<div class="modal-content">
+													
+														<div class="modal-header">
+														  <span class="close">&times;</span>
+														  <h3 align="center" style="color: white;">La tua mail</h3>
+														</div>
+															<div class="modal-body">
+															  <p id="mutable1" style="margin: 0;"><b>Mittente: </b></p>
+															  <p id="mutable2" style="margin-bottom: 10px;"><b>Destinatario: </b></p>
+															  <p id="mutable3" style="margin: 0;"></p>
+															  <p id="mutable4" style="margin: 0;"></p>
+															  <p> Cordiali saluti.</p>
+															  <form method="POST" action="mailto:mattia.tuninetti@gmail.com" enctype="text/plain">
+																<input type="hidden" name="Mail" id="sub" value="">
+																<input type="submit" value="Invia" id="send"/>
+															  </form>
+															</div>
+															
+														</div>
+
+													</div>
+												
+												
+												<!-- Break --> 
+												<div class="12u$">
+													<ul class="actions">
+														<li><input type="submit" class="popup" value="Invia" id="myBtn"></li>
+														<li><input type="reset" value="Reset" class="alt" id="myBtnReset"/><span class="myPopup" style="visibility: hidden;">Compila tutti i campi obbligatori...</span></input></li>
+													</ul>
+												</div>
+											</div>
+										
+									
+									
+									<!-- -->							
+							
+						<p>Nel peggiore dei casi ti risponderò in 3/4 giorni, dipendentemente anche dalla mole di lavoro che ho in quella settimana. Per quanto riguarda budget e tempi di realizzazione, esso dipende completamente dalle specifiche del sito, si val dal semplice blog personale con un paio di pagine al portale aziendale che necessità di appoggiarsi a un DataBase per conservare articoli piuttosto che utenti e simili. In generale, un sito realizzato con tool migliori e con diversi aspetti da realizzare costerà di più di uno relativamente semplice. Detto questo, tutte le questioni riguardanti realizzazione e budget verranno comunque discusse tra te e me senza impegno, quindi non ti preoccupare. Pronto per realizzare il tuo nuovo sito?;)</p>
+	
+						</div>
+					</section>
+								
+									
+									
+									
+								
+
+									
+							
+							
+							</div>
+				<!-- Section -->
+					<section class="wrapper style1">
+						<div class="inner">
+							<header class="align-center">
+								<h2>Tutto quello che ti serve</h2>
+								<p>Creare il sito professionale adatto a te non è mai stato così facile!</p>
+							</header>
+							<div class="flex flex-3">
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/website2.jpg" alt="" />
+									</div>
+									<p>Cominciamo subito a impostare le basi che andranno a costituire il tuo nuovo sito.</p>
+									<a href="generic.hmtl" class="button">Il mio sito</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="https://riccardomalatesta.github.io/img/icons/image_.png" alt="" />
+									</div>
+									<p>Non sono solo! Visita il sito web del mio socio Riccardo per informazioni sulla sicurezza informatca.</p>
+									<a href="https://riccardomalatesta.github.io/" class="button">Fammi vedere</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/newsl.jpg" alt="" />
+									</div>
+									<p>Iscriviti alla newsletter e riceverai periodicamente piccoli consigli su come gestire il tuo portale.</p>
+									<a href="NwLr.html" class="button">Newsletter</a>
+								</div>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
+					</ul>
+					<p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+			// Get the modal
+			var modal = document.getElementById('myModal');
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("myBtn");
+			var btnR = document.getElementById("myBtnReset");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks the button, open the modal 
+			btnR.onclick = function() {
+			   $('#name').val("");
+			   $('#email').val("");
+			   $('#ragioneSociale').val("");
+			   $('#category').val("0");
+			   $('#dbs').prop('checked', false);
+			   $('#human').prop('checked', false);
+			}
+			
+			
+				
+			
+			
+			btn.onclick = function() {
+			var mailE = $('#email').val();
+			var nome = $('#name').val();
+			var RS = $('#ragioneSociale').val();
+			var CS = $('#category').val();
+			
+			if(mailE.toString() != "" && nome.toString() != "" && RS.toString() != "" && CS != 0){
+				modal.style.display = "block";
+				
+				$('#mutable1').text("Mittente:" + nome.toString());
+				$('#mutable2').text("Destinatario:" + mailE.toString());
+				var DB = $('#dbs').is(':checked');
+				var IS = $('#human').is(':checked');
+				var db;
+				var is;
+				if(DB == false){
+					db = "senza";
+				} else{
+					db = "con";
+				}
+				
+				if(IS == false){
+					is = "senza";
+				} else{
+					is = "con";
+				}
+				
+				if(CS == 1){
+					$('#mutable3').text("Salve Mattia, mi piacerebbe discutere con te della realizzazione del mio blog personale, " + db.toString() + " l'apporto di un DataBase e " + is.toString() + " l'iscrizione da parte dell'utenza.");
+				} else if(CS == 2){
+					$('#mutable3').text("Salve Mattia, mi piacerebbe discutere con te della realizzazione del mio sito aziendale, " + db.toString() + " l'apporto di un DataBase e " + is.toString() + " l'iscrizione da parte dell'utenza.");
+				} else if(CS == 3){
+					$('#mutable3').text("Salve Mattia, mi piacerebbe discutere con te della realizzazione del mio portale, " + db.toString() + " l'apporto di un DataBase e " + is.toString() + " l'iscrizione da parte dell'utenza.");
+				}
+				
+				$('#mutable4').text("La mia ragione sociale: '" + RS.toString() + "'.");
+				var body = "\n" + $('#mutable3').text() + "\n" + $('#mutable4').text() + "\nCordiali saluti.\n Altre precisazioni: " + $('#message').val();
+				$('#sub').val(body.toString());
+			} else {
+				$('.myPopup').attr("style", "color: red; visibility: visible;");
+			}
+			}
+				
+			//	
+			
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+				modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}
+			
+			
+			</script>
+	</body>
+</html>

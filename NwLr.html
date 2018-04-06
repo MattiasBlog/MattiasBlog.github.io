@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MattiasBlog</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">Mattia's <span>personal WebSite</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Il mio sito</a></li>
+					<li><a href="NwLr.html">Newsletter</a></li>
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Section -->
+					<section class="wrapper">
+						<div class="inner">
+							<header class="align-center">
+								<h1>Iscriviti alla Newsletter</h1>
+								<p>Dai un occhiata all'articolo qua in basso per sapere cos'è e come funziona</p>
+							</header>
+							<div class="flex flex-2">
+								<div class="col col2">
+									<h3>In cosa consiste?</h3>
+									<p>Una newsletter è un servizio che vi offro tramite mail completamente gratuito. Esso consiste nella condivisione periodica di materiale per quanto riguarda la sicurezza e i tool utilizzabili sul tuo portale, oltre a consigli su come gestirlo in modo ottimale. Ad alcuni i consigli condivisi potrebbero sembrare scontati, ma spesso prestare una maggiore attenzione alla sicurezza o alla gestione del pubblicizzazione può risultare fondamentale per la cura del tuo sito.</p>
+									<p>Sei perplesso riguardo la sicurezza delle tue informazioni? Non ti preoccupare! Useremo la tua mail solo per inviarti questi aggiornamenti e non la divulgheremo a terzi in nessun caso. Inoltre dopo aver inserito il tuo indirizzo di posta ti sarà inviata una mail per la conferma per assicurarci che sei davvero tu! 
+								</div>
+								<div class="col col1 first">
+									<!-- BEGIN: Signup Form Manual Code from Benchmark Email Ver 3.0 ------>
+									<style type="text/css">
+									.formbox-editor-1039882 {margin: 0 auto;padding: 30px 40px;text-align: left;max-width: 100%;box-sizing: border-box;}
+									.formbox-editor-1039882 fieldset {border: none;margin: 0;padding: 0;position: relative;}
+									.formbox-editor-1039882 fieldset > input, .formbox-editor fieldset > textarea, .formbox-editable-field {margin: 10px 0;outline: none;}
+									.formbox-title-1039882 {background: none;border: none;color: #000;font-family: Helvetica, Arial, sans-serif;font-size: 20px;padding: 0;width: 100%;word-break: break-word;margin: 10px 0;}
+									.formbox-title-1039882 {border-radius: 0;min-height: 0;}
+									input.formbox-field-1039882 {border: 2px solid #f1f2f2;border-radius: 0;box-sizing: border-box;color: #000;font-family: Helvetica, Arial, sans-serif;font-size: 14px;padding: 15px;width: 100%;}
+									input.field-error-1039882 {border-color: #f15858;}
+									input.formbox-button-1039882 {background-color: #21292d;border-width: 0;border-style: solid;border-color: #21292d;border-radius: 8px;color: #fff;display: inline-block;font-family: Helvetica, Arial, sans-serif;font-size: 14px;font-weight: 600;padding: 15px;margin: 10px 0;text-align: center;word-break: break-all;cursor: pointer; vertical-align: middle;}
+									button.formbox-button-1039882 {background-color: #21292d;border-width: 0;border-style: solid;border-color: #21292d;border-radius: 8px;color: #fff;display: inline-block;font-family: Helvetica, Arial, sans-serif;font-size: 14px;font-weight: 600;padding: 15px;margin: 10px 0;text-align: center;word-break: break-all;cursor: pointer; vertical-align: middle;}
+									.formbox-editor-1039882{background-color:#ffffff !important;}.formbox-title-1039882{font-family:Helvetica, Arial, sans-serif !important;font-size:20px !important;color:#000000 !important;text-align:left !important;}.formbox-button-1039882{font-family:Helvetica, Arial, sans-serif !important;font-size:14px !important;font-weight:600 !important;color:#ffffff !important;background-color:#21292d !important;border-radius:2px !important;border-color:#21292d !important;border-width:0px !important;border-style:solid;} #tdLogo1039882 img{margin-botton:10px; max-width:230px;}
+									</style>
+									<script type="text/javascript">
+									function CheckField1039882(fldName, frm){ if ( frm[fldName].length ) { for ( var i = 0, l = frm[fldName].length; i < l; i++ ) {  if ( frm[fldName].type =='select-one' ) { if( frm[fldName][i].selected && i==0 && frm[fldName][i].value == '' ) { return false; }  if ( frm[fldName][i].selected ) { return true; } }  else { if ( frm[fldName][i].checked ) { return true; } }; } return false; } else { if ( frm[fldName].type == "checkbox" ) { return ( frm[fldName].checked ); } else if ( frm[fldName].type == "radio" ) { return ( frm[fldName].checked ); } else { frm[fldName].focus(); return (frm[fldName].value.length > 0); }} }
+									function rmspaces(x) {var leftx = 0;var rightx = x.length -1;while ( x.charAt(leftx) == ' ') { leftx++; }while ( x.charAt(rightx) == ' ') { --rightx; }var q = x.substr(leftx,rightx-leftx + 1);if ( (leftx == x.length) && (rightx == -1) ) { q =''; } return(q); }
+									function checkfield(data) {if (rmspaces(data) == ""){return false;}else {return true;}}
+									function isemail(data) {var flag = false;if (  data.indexOf("@",0)  == -1 || data.indexOf("\\",0)  != -1 ||data.indexOf("/",0)  != -1 ||!checkfield(data) ||  data.indexOf(".",0)  == -1  ||  data.indexOf("@")  == 0 ||data.lastIndexOf(".") < data.lastIndexOf("@") ||data.lastIndexOf(".") == (data.length - 1)   ||data.lastIndexOf("@") !=   data.indexOf("@") ||data.indexOf(",",0)  != -1 ||data.indexOf(":",0)  != -1 ||data.indexOf(";",0)  != -1  ) {return flag;} else {var temp = rmspaces(data);if (temp.indexOf(' ',0) != -1) { flag = true; }var d3 = temp.lastIndexOf('.') + 4;var d4 = temp.substring(0,d3);var e2 = temp.length  -  temp.lastIndexOf('.')  - 1;var i1 = temp.indexOf('@');if (  (temp.charAt(i1+1) == '.') || ( e2 < 1 ) ) { flag = true; }return !flag;}}
+									function _checkSubmit1039882(frm){
+									if ( !CheckField1039882("fldfirstname", frm) ) { 
+									   alert("Inserisci Nome");
+									   return false;
+									}
+									if ( !isemail(frm["fldEmail"].value) ) { 
+									   alert("Inserisci Indirizzo Email ");
+									   return false;
+									}
+									 return true; }
+									</script>
+									<div align="center">
+									<div class="formbox-editor-1039882" style="background: #fff; width: 320px;">
+									<form style="display:inline;" action="https://lb.benchmarkemail.com//code/lbform" method=post name="frmLB1039882" accept-charset="UTF-8" onsubmit="return _checkSubmit1039882(this);" >
+									<input type=hidden name=successurl value="http://www.benchmarkemail.com/Code/ThankYouOptin?language=italian" />
+									<input type=hidden name=errorurl value="http://lb.benchmarkemail.com//Code/Error" />
+									<input type=hidden name=token value="mFcQnoBFKMRPX%2BHGmynXm8xpSu0%2BSv5Ka4Hn%2FBK%2BU3J6sd8yrl%2BRxw%3D%3D" />
+									<input type=hidden name=doubleoptin value="" /><fieldset><div class="formbox-title-1039882">La Newsletter</div></fieldset>
+									<fieldset class="formbox-field-fname-1039882">
+									<input type=text placeholder="Nome *" class="formbox-field-1039882" name="fldfirstname" maxlength=100 />
+									</fieldset>
+									<fieldset class="formbox-field-email-1039882">
+									<input type=text placeholder="Indirizzo Email  *" class="formbox-field-1039882" name="fldEmail" maxlength=100 />
+									</fieldset>
+
+									<fieldset><button type="submit" id="btnSubmit" krydebug="1751">Iscriviti</button></fieldset></form>
+									</div>
+									</div>
+
+
+									<!-- END: Signup Form Manual Code from Benchmark Email Ver 3.0 ------>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<!-- Section -->
+					<section class="wrapper style1">
+						<div class="inner">
+							<header class="align-center">
+								<h2>Tutto quello che ti serve</h2>
+								<p>Creare il sito professionale adatto a te non è mai stato così facile!</p>
+							</header>
+							<div class="flex flex-3">
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/website2.jpg" alt="" />
+									</div>
+									<p>Cominciamo subito a impostare le basi che andranno a costituire il tuo nuovo sito.</p>
+									<a href="generic.html" class="button">Il mio sito</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="https://riccardomalatesta.github.io/img/icons/image_.png" alt="" />
+									</div>
+									<p>Non sono da solo! Visita il sito web del mio socio Riccardo per informazioni sulla sicurezza informatca.</p>
+									<a href="https://riccardomalatesta.github.io/" class="button">Fammi vedere</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/newsl.jpg" alt="" />
+									</div>
+									<p>Iscriviti alla newsletter e riceverai periodicamente piccoli consigli su come gestire il tuo portale.</p>
+									<a href="NwLr.html" class="button">Newsletter</a>
+								</div>
+							</div>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
+					</ul>
+					<p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+			
+
+	</body>
+</html>
